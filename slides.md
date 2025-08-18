@@ -7,6 +7,7 @@ size: 16:9
 footer: "© 2025 · 24f2000935@ds.study.iitm.ac.in · $current / $total"
 ---
 
+<!-- _class: lead -->
 # Product Documentation with Marp  
 **Author:** 24f2000935@ds.study.iitm.ac.in  
 
@@ -41,5 +42,6 @@ T(n) = O(n \log n)
 
 ---
 
+<!-- _class: compact -->
 ## Contact
 **24f2000935@ds.study.iitm.ac.in**
