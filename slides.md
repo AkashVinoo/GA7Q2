@@ -5,12 +5,11 @@ class: lead
 paginate: true
 footer: "Page ${page} / ${total}"
 math: katex
-author: "24f2000935@ds.study.iitm.ac.in"
 ---
 
 # Product Documentation Presentation
 ### Technical Writer:  
-**24f2000935@ds.study.iitm.ac.in**
+📧 **24f2000935@ds.study.iitm.ac.in**
 
 ---
 
@@ -33,7 +32,8 @@ author: "24f2000935@ds.study.iitm.ac.in"
 <!-- _color: white -->
 
 ### Slide with Background Image  
-This slide uses a full background image with custom styling.
+This slide uses a full background image with custom styling.  
+📧 Contact: **24f2000935@ds.study.iitm.ac.in**
 
 ---
 
