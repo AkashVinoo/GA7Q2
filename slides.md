@@ -1,47 +1,64 @@
 ---
 marp: true
 theme: product-docs
-math: katex
+class: lead
 paginate: true
-size: 16:9
-footer: "© 2025 · 24f2000935@ds.study.iitm.ac.in · $current / $total"
+footer: "Page ${page} / ${total}"
+math: katex
+author: "24f2000935@ds.study.iitm.ac.in"
 ---
 
-<!-- _class: lead -->
-# Product Documentation with Marp  
-**Author:** 24f2000935@ds.study.iitm.ac.in  
-
----
-
-## Why Marp?
-- Version control friendly  
-- Export to PDF, HTML, PPTX  
-- Math + code + theming  
-- Background images supported 🎉  
+# Product Documentation Presentation
+### Technical Writer: 24f2000935@ds.study.iitm.ac.in
 
 ---
 
-<!-- A slide with a background image -->
-![bg](assets/bg-docs.jpg)
+## Introduction
 
-# Architecture at a Glance
-
-- Client → API Gateway → Services → DB  
-- Observability: Logs, Metrics, Traces  
-- Deployment: Blue/Green, Canary, Rollback  
+- This presentation demonstrates product documentation using **Marp**.  
+- Features included:
+  - Custom theme  
+  - Page numbers  
+  - Background image  
+  - Custom styling  
+  - Mathematical equations  
+  - Version-control ready  
 
 ---
 
-## Math Example
+## Background Image Example
+<!-- _backgroundImage: url('https://picsum.photos/1280/720') -->
+<!-- _backgroundSize: cover -->
+<!-- _color: white -->
 
-We analyze algorithmic complexity:
+### Slide with Background Image  
+This slide uses a full background image with custom styling.
 
-\[
+---
+
+## Algorithmic Complexity
+
+We often analyze runtime using *Big-O* notation:
+
+$$
 T(n) = O(n \log n)
-\]
+$$
+
+Example: Merge Sort has time complexity $O(n \log n)$.
 
 ---
 
-<!-- _class: compact -->
-## Contact
-**24f2000935@ds.study.iitm.ac.in**
+## Code Sample
+
+```python
+def binary_search(arr, target):
+    left, right = 0, len(arr) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
