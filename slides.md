@@ -1,13 +1,13 @@
 ---
 marp: true
-theme: product-docs
+theme: default
 class: lead
 paginate: true
 footer: "Page ${page} / ${total}"
 math: katex
 ---
 
-# Product Documentation Presentation
+# Product Documentation Presentation  
 ### Technical Writer:  
 📧 **24f2000935@ds.study.iitm.ac.in**
 
@@ -16,7 +16,7 @@ math: katex
 ## Introduction
 
 - This presentation demonstrates product documentation using **Marp**.  
-- Features included:
+- Features included:  
   - Custom theme  
   - Page numbers  
   - Background image  
@@ -26,12 +26,12 @@ math: katex
 
 ---
 
-## Background Image Example
 <!-- _backgroundImage: url('https://picsum.photos/1280/720') -->
 <!-- _backgroundSize: cover -->
 <!-- _color: white -->
 
-### Slide with Background Image  
+## Slide with Background Image
+
 This slide uses a full background image with custom styling.  
 📧 Contact: **24f2000935@ds.study.iitm.ac.in**
 
@@ -45,7 +45,7 @@ $$
 T(n) = O(n \log n)
 $$
 
-Example: Merge Sort has time complexity $O(n \log n)$.
+Example: Merge Sort has time complexity \(O(n \log n)\).
 
 ---
 
