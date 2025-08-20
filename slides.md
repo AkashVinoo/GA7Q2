@@ -1,65 +1,37 @@
 ---
 marp: true
-theme: default
-class: lead
+title: Data Design by Dialogue
+author: Anand S
+theme: gaia
 paginate: true
-footer: "Page ${page} / ${total}"
-math: katex
 ---
 
-# Product Documentation Presentation  
-### Technical Writer:  
-📧 **24f2000935@ds.study.iitm.ac.in**
+<style>
+  blockquote {
+    font-style: italic;
+  }
+  section {
+    background-image: url('images/qr-code.png');
+    background-repeat: no-repeat;
+    background-position: top 20px right 20px;
+    background-size: 80px auto;
+    font-size: calc(1.2vw + 1.2vh);
+  }
+</style>
 
----
+# Data Design by Dialogue
 
-## Introduction
-
-- This presentation demonstrates product documentation using **Marp**.  
-- Features included:  
-  - Custom theme  
-  - Page numbers  
-  - Background image  
-  - Custom styling  
-  - Mathematical equations  
-  - Version-control ready  
-
----
-
-<!-- _backgroundImage: url('https://picsum.photos/1280/720') -->
-<!-- _backgroundSize: cover -->
-<!-- _color: white -->
-
-## Slide with Background Image
-
-This slide uses a full background image with custom styling.  
+Content with styled quotes and background image...  
+Best Practices  
 📧 Contact: **24f2000935@ds.study.iitm.ac.in**
 
 ---
 
-## Algorithmic Complexity
+## File Organization
 
-We often analyze runtime using *Big-O* notation:
-
-$$
-T(n) = O(n \log n)
-$$
-
-Example: Merge Sort has time complexity \(O(n \log n)\).
-
----
-
-## Code Sample
-
-```python
-def binary_search(arr, target):
-    left, right = 0, len(arr) - 1
-    while left <= right:
-        mid = (left + right) // 2
-        if arr[mid] == target:
-            return mid
-        elif arr[mid] < target:
-            left = mid + 1
-        else:
-            right = mid - 1
-    return -1
+```plaintext
+presentation/
+├── slides.md        # Main presentation
+├── images/          # Images folder
+├── themes/          # Custom themes
+└── package.json     # Build configuration
